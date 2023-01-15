@@ -1,0 +1,11 @@
+all: DiningPhilosopher ResourceRequestforPhilosopher SauceProblem strictordering_withsauce
+
+DiningPhilosopher:DiningPhilosopher.c
+	gcc DiningPhilosopher.c -o DiningPhilosopher
+ResourceRequestforPhilosopher:ResourceRequestforPhilosopher.c
+	gcc ResourceRequestforPhilosopher.c -o ResourceRequestforPhilosopher
+SauceProblem:SauceProblem.c
+	gcc SauceProblem.c -o SauceProblem
+strictordering_withsauce:strictordering_withsauce.c
+	gcc strictordering_withsauce.c -o strictordering_withsauce
+
